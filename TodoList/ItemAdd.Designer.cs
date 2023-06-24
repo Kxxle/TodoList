@@ -81,6 +81,7 @@
             this.SaveBttn.TabIndex = 4;
             this.SaveBttn.Text = "Save";
             this.SaveBttn.UseVisualStyleBackColor = true;
+            this.SaveBttn.Click += new System.EventHandler(this.SaveBttn_Click);
             // 
             // ItemAdd
             // 

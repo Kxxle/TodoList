@@ -16,5 +16,11 @@ namespace TodoList
         {
             InitializeComponent();
         }
+
+        private void SaveBttn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }
