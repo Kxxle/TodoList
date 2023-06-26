@@ -8,5 +8,7 @@ namespace TodoList
 {
     internal class ItemList
     {
+        List<string> items = new List<string>();
+        
     }
 }

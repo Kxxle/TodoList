@@ -34,14 +34,14 @@ namespace TodoList
             panel.Location = new System.Drawing.Point(10, 130);
             panel.Size = new System.Drawing.Size(780, 50);
             panel.TabIndex = 0;
-            RadioButton radioButton = new RadioButton();
-            radioButton.Name = "radioBttn1";
-            radioButton.Location = new Point(10, 10);
-            radioButton.Text = Values.itemname;
-            radioButton.Enabled = true;
-            radioButton.Checked = false;
-            radioButton.Size = new Size(100, 30);
-            panel.Controls.Add(radioButton);
+            CheckBox checkBox = new CheckBox();
+            checkBox.Name = "radioBttn1";
+            checkBox.Location = new Point(10, 10);
+            checkBox.Text = Values.itemname;
+            checkBox.Enabled = true;
+            checkBox.Checked = false;
+            checkBox.Size = new Size(100, 30);
+            panel.Controls.Add(checkBox);
             Controls.Add(panel);
         }
 
