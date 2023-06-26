@@ -19,6 +19,10 @@ namespace TodoList
 
         private void SaveBttn_Click(object sender, EventArgs e)
         {
+
+            Values.itemname = textBox1.Text;
+            ToDo toDo = new ToDo();
+            toDo.ShowDialog();
             this.Close();
 
         }
