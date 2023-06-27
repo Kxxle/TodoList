@@ -43,9 +43,11 @@ namespace TodoList
         private void addBttn_Click(object sender, EventArgs e)
         {
             
-            
             ItemAdd itemAdd = new ItemAdd();
             itemAdd.ShowDialog();
+            this.Close();
+
+            
         }
     }
 }
