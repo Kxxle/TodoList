@@ -27,22 +27,7 @@ namespace TodoList
             dateLbl.Text = DateTime.Today.ToString("d");
             timeLbl.Text = DateTime.Today.ToString("t");
             //Initialization of the items of the TodoList
-            Panel panel = new Panel();
-            panel.BorderStyle = BorderStyle.None;
-            panel.Name = "panelx";
-            panel.BackColor = Color.Blue;
-            panel.Location = new System.Drawing.Point(10, 130);
-            panel.Size = new System.Drawing.Size(780, 50);
-            panel.TabIndex = 0;
-            CheckBox checkBox = new CheckBox();
-            checkBox.Name = "radioBttn1";
-            checkBox.Location = new Point(10, 10);
-            checkBox.Text = Values.itemname;
-            checkBox.Enabled = true;
-            checkBox.Checked = false;
-            checkBox.Size = new Size(100, 30);
-            panel.Controls.Add(checkBox);
-            Controls.Add(panel);
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
